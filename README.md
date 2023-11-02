@@ -11,19 +11,19 @@ TTFont subclass objects, that meet the specified criteria.
 
 ## Attributes
 The ``FontFinder`` class has the following attributes:
-* ``input_path``: the path to the directory or file
-* ``recursive``: if ``True`` and ``input_path`` is a directory, search for fonts in the directory and its subdirectories
-* ``return_cls``: the class to use for returned objects can be specified by passing a subclass of ``TTFont`` to the
-``return_cls`` argument. If ``return_cls`` is ``None``, ``TTFont`` is used
-* ``recalc_timestamp``: if ``True``, recalculate the font's ``modified`` timestamp on save
-* ``recalc_bboxes``: if ``True``, recalculate the font's bounding boxes on save
-* ``filter_out_sfnt``: if ``True``, filter out SFNT fonts
-* ``filter_out_woff``: if ``True``, filter out WOFF fonts
-* ``filter_out_woff2``: if ``True``, filter out WOFF2 fonts
-* ``filter_out_tt``: if ``True``, filter fonts with TrueType outlines
-* ``filter_out_ps``: if ``True``, filter fonts with PostScript outlines
-* ``filter_out_static``: if ``True``, filter out static fonts
-* ``filter_out_variable``: if ``True``, filter out variable fonts
+  * ``input_path``: the path to the directory or file
+  * ``recursive``: if ``True`` and ``input_path`` is a directory, search for fonts in the directory and its subdirectories
+  * ``return_cls``: the class to use for returned objects can be specified by passing a subclass of ``TTFont`` to the
+  ``return_cls`` argument. If ``return_cls`` is ``None``, ``TTFont`` is used
+  * ``recalc_timestamp``: if ``True``, recalculate the font's ``modified`` timestamp on save
+  * ``recalc_bboxes``: if ``True``, recalculate the font's bounding boxes on save
+  * ``filter_out_sfnt``: if ``True``, filter out SFNT fonts
+  * ``filter_out_woff``: if ``True``, filter out WOFF fonts
+  * ``filter_out_woff2``: if ``True``, filter out WOFF2 fonts
+  * ``filter_out_tt``: if ``True``, filter fonts with TrueType outlines
+  * ``filter_out_ps``: if ``True``, filter fonts with PostScript outlines
+  * ``filter_out_static``: if ``True``, filter out static fonts
+  * ``filter_out_variable``: if ``True``, filter out variable fonts
 
 ## Usage examples
 ### List or Generator
