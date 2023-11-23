@@ -1,1 +1,1 @@
-fonttools[woff] ==4.45.0
+fonttools[woff] ==4.45.1
